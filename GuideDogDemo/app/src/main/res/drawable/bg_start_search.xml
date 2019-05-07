@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false"><shape>
+        <corners  android:radius="@dimen/btn_start_search_bg" />
+
+        <padding android:bottom="@dimen/btn_start_search_stroke" android:left="@dimen/btn_start_search_stroke" android:right="@dimen/btn_start_search_stroke" android:top="@dimen/btn_start_search_stroke" />
+
+        <solid android:color="@color/search_guidedog_searching" />
+
+        <stroke android:width="@dimen/btn_start_search_stroke" android:color="@color/search_guidedog_line" />
+    </shape></item>
+
+
+    <item android:state_pressed="false" android:state_enabled="true"><shape >
+        <corners android:radius="@dimen/btn_start_search_bg" />
+
+        <padding android:bottom="@dimen/btn_start_search_stroke" android:left="@dimen/btn_start_search_stroke" android:right="@dimen/btn_start_search_stroke" android:top="@dimen/btn_start_search_stroke" />
+
+        <solid android:color="@color/search_guidedog_nomal" />
+
+        <stroke android:width="@dimen/btn_start_search_stroke" android:color="@color/search_guidedog_line" />
+    </shape></item>
+    <item android:state_pressed="true"><shape>
+        <corners android:radius="@dimen/btn_start_search_bg" />
+
+        <padding android:bottom="@dimen/btn_start_search_stroke" android:left="@dimen/btn_start_search_stroke" android:right="@dimen/btn_start_search_stroke" android:top="@dimen/btn_start_search_stroke" />
+
+        <solid android:color="@color/search_guidedog_line" />
+
+        <stroke android:width="@dimen/btn_start_search_stroke" android:color="@color/search_guidedog_line" />
+    </shape></item>
+
+</selector>

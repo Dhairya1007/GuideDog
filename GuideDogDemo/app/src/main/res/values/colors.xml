@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标准颜色-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="connectedcolor">#2de411</color>
+    <!--按钮颜色-->
+    <color name="nomalBtnDefault">#3F51B5</color>
+    <color name="nomalBtnPressed">#6070C7</color>
+    <color name="beacon_sequ">#83DEBC</color>
+    <color name="nomalBtnDisable">#898989</color>
+    <!--距离值颜色-->
+    <color name="error_color">#B50000</color>
+    <color name="warnning_color">#B59700</color>
+    <color name="clear_color">#00B54B</color>
+    <!--边框颜色-->
+    <color name="search_guidedog_stroke">#888888</color>
+    <color name="search_guidedog_line">#303F9F</color>
+    <color name="search_guidedog_searching">#CCCCCC</color>
+    <color name="search_guidedog_nomal">#303F9F</color>
+    <!--普通色-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+
+
+    <color name="cautioncolor">#f7ff14</color>
+</resources>

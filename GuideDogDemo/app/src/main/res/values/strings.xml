@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GuideDogDemo</string>
+
+    <string name="guidedog_search">Search</string>
+    <string name="guidedog_searching">searching</string>
+    <string name="guidedog_connecting">connecting</string>
+
+
+    <string name="button_state_none">NONE</string>
+
+    <string name="slide_on">ON</string>
+    <string name="slide_off">OFF</string>
+
+    <string name="guide_dog_connect">connect</string>
+    <string name="guide_dog_disconnect">disconnect</string>
+    <string name="guide_dog_connecting">connecting</string>
+
+
+    <string name="click">CLICK</string>
+
+    <string name="long_click">LONG CLICK</string>
+
+    <string name="proximity_clear">safe</string>
+    <string name="proximity_caution">caution</string>
+    <string name="proximity_danger">danger</string>
+
+    <string name="charging">on charging</string>
+    <string name="charge_stop">stop charging</string>
+
+
+
+</resources>

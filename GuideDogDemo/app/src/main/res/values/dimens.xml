@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="btn_bg_start_search_size">250dp</dimen>
+    <dimen name="btn_bg_start_search_stroke">25dp</dimen>
+
+    <dimen name="btn_start_search_size">200dp</dimen>
+    <dimen name="btn_start_search_bg">199dp</dimen>
+    <dimen name="btn_start_search_stroke">5dp</dimen>
+</resources>

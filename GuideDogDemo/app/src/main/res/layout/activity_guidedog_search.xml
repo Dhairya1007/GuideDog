@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.flyingcodes.guidedog.ui.GuideDogSearchActivity">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/tool_bar"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:theme="@style/AppTheme"-->
+        <!--app:title="GuideDog Demo"-->
+        <!--app:titleTextColor="@color/white"-->
+        <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="@dimen/btn_bg_start_search_size"-->
+        <!--android:layout_height="@dimen/btn_bg_start_search_size"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/tool_bar"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--android:background="@drawable/bg_of_btn_start_search"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/sande_block_big"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/start_search_device"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_start_search"
+            android:text="@string/guidedog_search"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
